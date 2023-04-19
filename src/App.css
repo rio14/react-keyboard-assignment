@@ -1,0 +1,43 @@
+.body {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.component {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.component.a {
+  background-color: palevioletred;
+}
+
+.component.b {
+  background-color: royalblue;
+}
+
+.component.c {
+  background-color: seagreen;
+}
+
+.olive {
+  background-color: olivedrab !important;
+}
+
+.tomato {
+  background-color: tomato !important;
+}
+
+.purple {
+  background-color: purple !important;
+}
